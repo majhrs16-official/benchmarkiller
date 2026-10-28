@@ -1,0 +1,3 @@
+#nasm -f elf64 usr/src/benchmarkiller-v9.asm -o tmp/benchmarkiller.o # code saturate compute units || exit 1
+nasm -f elf64 usr/src/benchmarkiller.asm -o tmp/benchmarkiller.o || exit 1
+ld tmp/benchmarkiller.o -o usr/bin/benchmarkiller

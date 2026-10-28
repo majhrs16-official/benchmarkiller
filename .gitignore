@@ -1,0 +1,5 @@
+usr/bin/*
+tmp/*
+
+!usr/bin/.gitkeep
+!tmp/.gitkeep

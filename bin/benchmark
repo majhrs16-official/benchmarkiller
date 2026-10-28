@@ -1,0 +1,1 @@
+perf stat -e cycles -e instructions -e branches -e branch-misses -e cache-references -e cache-misses usr/bin/benchmarkiller
